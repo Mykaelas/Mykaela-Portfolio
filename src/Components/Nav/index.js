@@ -11,10 +11,14 @@ function Nav(props) {
     setContactSelected,
   } = props;
 
+ // useEffect(() => {
+ //   document.title = capitalizeFirstLetter(currentCategory);
+ // }, [currentCategory]);
   useEffect(() => {
-    document.title = capitalizeFirstLetter(currentCategory.name);
+    document.title = "Portfolio";
   }, [currentCategory]);
 
+  // add on click for contact, resume, and portfolio
   return (
     <header className="flex-row px-1">
       <nav>

@@ -1,13 +1,15 @@
 import React from 'react';
-import Pictures from '../../Assets/Git Project Pictures';
-
+import Movie from '../../Assets/Git Project Pictures';
+//import one at a time
 
 // This will 
 function Portfolio() {
-
+ // use flexbox
     return (
         <div>
-            {/* put in the portfolio stuff here */}
+            <p> Proejct one box</p>
         </div>
     )
 }
+
+export default Portfolio;
