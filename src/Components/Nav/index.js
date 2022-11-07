@@ -1,22 +1,11 @@
-import React, { useEffect } from 'react';
-import { capitalizeFirstLetter } from '../../Utils/helpers'
+import React from 'react';
 
 
 function Nav(props) {
   const {
-    categories = [],
-    setCurrentCategory,
-    contactSelected,
-    currentCategory,
-    setContactSelected,
+    setTabSelected,
   } = props;
 
- // useEffect(() => {
- //   document.title = capitalizeFirstLetter(currentCategory);
- // }, [currentCategory]);
-  useEffect(() => {
-    document.title = "Portfolio";
-  }, [currentCategory]);
 
   // add on click for contact, resume, and portfolio
   return (
@@ -24,30 +13,25 @@ function Nav(props) {
       <nav>
         <ul className="flex-row">
           <li className="mx-2">
-            <a data-testid="about" href="#about" onClick={() => setContactSelected(false)}>
-              About me
+            <a data-testid="about" href="#about" onClick={() => setTabSelected('about')}>
+              About
             </a>
           </li>
-          <li className={`mx-2 ${contactSelected && 'navActive'}`}>
-            <span onClick={() => setContactSelected(true)}>Contact</span>
+          <li className="mx-2">
+            <a data-testid="projects" href="#projects" onClick={() => setTabSelected('projects')}>
+              Projects
+            </a>
           </li>
-          {categories.map((category) => (
-            <li
-              className={`mx-1 ${
-                currentCategory.name === category.name && !contactSelected && 'navActive'
-                }`}
-              key={category.name}
-            >
-              <span
-                onClick={() => {
-                  setCurrentCategory(category);
-                  setContactSelected(false);
-                }}
-              >
-                {capitalizeFirstLetter(category.name)}
-              </span>
-            </li>
-          ))}
+          <li className="mx-2">
+            <a data-testid="contact" href="#contact" onClick={() => setTabSelected('contact')}>
+              Contact Me
+            </a>
+          </li>
+          <li className="mx-2">
+            <a data-testid="resume" href="#resume" onClick={() => setTabSelected('resume')}>
+              Resume
+            </a>
+          </li>
         </ul>
       </nav>
     </header>

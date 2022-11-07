@@ -11,7 +11,7 @@ function About() {
           My name is Mykaela Saenz, I am a JavaScript Developer with a Full Stack certificate from Rice University.
           I have worked on various projects that have included multiple different JavaScript libraries and extensions.
           Not only have I worked on solo projects but I've also been fortunate enough to work in groups with other talented
-          classmates of mine. If you click on my portfolio you will see some of the projects that I have worked on. 
+          classmates of mine. To view my work please click on my Portfolio tab. 
         </p>
         <img src={Profile} alt="Mykaela" />
       </div>

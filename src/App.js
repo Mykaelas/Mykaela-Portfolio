@@ -1,38 +1,33 @@
-import React from 'react';
+import React, {useState} from 'react';
 import Header from './Components/Header';
-// import Contact from './Components/Contact';
-// import About from './Components/About';
+import Contact from './Components/Contact';
+import About from './Components/About';
 import Footer from './Components/Footer/index.js';
-// import Header from './Components/Header';
-// import Portfolio from './Components/Portfolio';
-import Github from './Assets/Icons/GitHub-Mark/PNG/GitHub-Mark-64px.png'
+import Portfolio from './Components/Portfolio';
+import Resume from './Components/Resume';
+import Main from './Components/Main';
 
 
 function App() {
+  const [tabSelected, setTabSelected] = useState('default');
+  
   return (
     <div>
-      <Header
-        // categories={categories}
-        // setCurrentCategory={setCurrentCategory}
-        // currentCategory={currentCategory}
-        // contactSelected={contactSelected}
-        // setConactSelected={setConactSelected}
-      ></Header>
+      <Header setTabSelected={setTabSelected}></Header>
+    <div>
       <main>
-        {/* {!contactSelected ? (
-          <>
-            <About></About>
-          </>
-        ) : (
-            <Portfolio></Portfolio>
-        ) : (
-            <Contact></Contact>
-        ) : (
-            <Resume></Resume>
-        )
-        )} */}
-        <Footer></Footer>
+        {
+          {
+            about: <About />,
+            projects: <Portfolio />,
+            contact: <Contact />,
+            resume: <Resume />,
+            default: <Main />
+          }[tabSelected]
+       }
       </main>
+    </div>
+      <Footer></Footer>
     </div>
   );
 }

@@ -15,6 +15,22 @@ main {
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: 'Bukhari';
+  src: url('Assets/Fonts/Bukhari\ Script.woff') format('woff'),
+       url('Assets/Fonts/Bukhari\ Script.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face{ 
+  font-family: 'Abril';
+  src: url('Assets/Fonts/AbrilFatface-Regular.woff') format('woff'),
+       url('Assets/Fonts/AbrilFatface-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
 html,
 body {
   min-height: 100%;
@@ -28,21 +44,7 @@ body {
   font-size: 18px;
   letter-spacing: .1em;
   background: var(--primary);
-  color: var(--light);
-  font-family:Georgia, 'Times New Roman', Times, serif, cursive;
-
-}
-
-footer {
-  margin: 0 auto;
-  padding: 0;
-  font-weight: 600;
-  line-height: 1.5;
-  font-size: 18px;
-  letter-spacing: .1em;
-  background: var(--primary);
-  color: var(--light);
-  font-family:Georgia, 'Times New Roman', Times, serif, cursive;
+  font-family:'Abril', 'Helvetica Neue', Helvetica, Arial;
 
 }
 
