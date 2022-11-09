@@ -9,7 +9,7 @@ function Nav(props) {
 
   // add on click for contact, resume, and portfolio
   return (
-    <header className="flex-row px-1">
+    // <header className="flex-row px-1">
       <nav>
         <ul className="flex-row">
           <li className="mx-2">
@@ -24,7 +24,7 @@ function Nav(props) {
           </li>
           <li className="mx-2">
             <a data-testid="contact" href="#contact" onClick={() => setTabSelected('contact')}>
-              Contact Me
+              Contact
             </a>
           </li>
           <li className="mx-2">
@@ -34,7 +34,7 @@ function Nav(props) {
           </li>
         </ul>
       </nav>
-    </header>
+    // </header>
   );
 }
 

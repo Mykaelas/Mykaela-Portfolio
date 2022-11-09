@@ -1,17 +1,15 @@
-main {
-	margin: 0 auto;
-	max-width: 90%;
-  padding: 50px 30px;
-}
+
 :root {
   --primary: #ddc8c4;
   --secondary: #6B4D57;
   --tertiary: #896a67;
   --light: #Eff9f0;
-  --dark: #13070c;
+  --dark: #322a2d;
 }
 
 * {
+  padding: 0;
+  margin: 0;
   box-sizing: border-box;
 }
 
@@ -30,7 +28,10 @@ main {
   font-weight: normal;
   font-style: normal;
 }
+main {
 
+	max-width: 90%;
+} 
 html,
 body {
   min-height: 100%;
@@ -48,3 +49,47 @@ body {
 
 }
 
+#header1 {
+  background-color: var(--dark);
+}
+
+#userName {
+  color: var(--light);
+  font-family: 'Bukhari', 'Helvetica Neue', Helvetica;
+  text-decoration: none;
+  font-size: 1.4em;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+}
+
+nav a {
+  color: var(--light);
+  text-decoration: none;
+  padding: 0px 10px 0px 10px;
+  font-size: 20px;
+}
+
+.mx-2 {
+  list-style: none;
+}
+
+.mainPage {
+  color: var(--dark);
+  font-size: 55px;
+  margin: 80px 250px;
+  padding: 10px 0px 110px 10px;
+}
+
+footer {
+  position:relative;
+  display: flex;
+  flex-direction:row;
+  height: 80px;
+}
+.footerA {
+  padding: 6px 650px;
+}

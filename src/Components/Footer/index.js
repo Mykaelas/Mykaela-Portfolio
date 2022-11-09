@@ -7,12 +7,14 @@ import Indeed from '../../Assets/Icons/linkedin.png'
 function Footer() {
     return (
         <footer>
-            <a href="https://www.linkedin.com/in/mykaela-saenz-526211141/" rel="noopener">
-                <img height="62px" width="60px" src={Indeed} alt='indeed icon' />
-            </a>
-            <a href="https://github.com/Mykaelas" rel="noopener">
-                <img src={Github} alt="Github icon" />
-            </a>
+            <div className="footerA">
+                <a href="https://www.linkedin.com/in/mykaela-saenz-526211141/" target="_blank" rel="noreferrer">
+                    <img height="62px" width="60px" src={Indeed} alt='indeed icon' />
+                </a>
+                <a href="https://github.com/Mykaelas" target="_blank" rel="noreferrer">
+                    <img src={Github} alt="Github icon" />
+                </a>
+            </div>
         </footer>
     )
 }

@@ -6,7 +6,12 @@ function Header(props) {
     } = props;
     return (
         <div>
-            <header>
+            <header id="header1">
+                <a href="/" id="userName">
+                    <h1>
+                        Mykaela Saenz
+                    </h1>
+                </a>
                     <Nav id="Nav" setTabSelected={setTabSelected}>
                     </Nav>
                 

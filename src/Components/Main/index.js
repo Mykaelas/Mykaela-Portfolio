@@ -4,7 +4,7 @@ function Main() {
 
     return(
         <div>
-            <p>
+            <p className="mainPage">
                 Welcome to my portoflio, this is a display of my works and accomplishments.
             </p>
         </div>
