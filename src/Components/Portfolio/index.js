@@ -15,7 +15,7 @@ function Portfolio() {
         <div id="parentContainer">
             <div id="cardContainer">
                 <div id="card">
-                    <img src={Movie} alt="MoodFlix" />
+                    <img src={Movie} alt="MoodFlix" className="cardPicture"/>
                     <h1> #MoodFlix </h1>
                     <div id="websiteContainer">
                         <a href="https://github.com/bjennings90/Movie-Finder" target="_blank" rel="noreferrer">
@@ -29,7 +29,7 @@ function Portfolio() {
             </div>
             <div id="cardContainer">
                 <div id="card">
-                    <img src={Compere} alt="Compere" />
+                    <img src={Compere} alt="Compere"  className="cardPicture"/>
                     <h1> Compére </h1>
                     <div id="websiteContainer">
                         <a href="https://github.com/AHudg/compere" target="_blank" rel="noreferrer">
@@ -43,8 +43,8 @@ function Portfolio() {
             </div>
             <div id="cardContainer">
                 <div id="card">
-                    <img src={Do} alt="Do you have that in the back?" />
-                    <h1> Do you have that in the back? </h1>
+                    <img src={Do} alt="Do you have that in the back?" className="cardPicture"/>
+                    <h1 id="back"> Do you have that <br /> in the back? </h1>
                     <div id="websiteContainer">
                         <a href="https://github.com/Mykaelas/Do-You-Have-That-In-The-Back" target="_blank" rel="noreferrer">
                             GitHub
@@ -57,7 +57,7 @@ function Portfolio() {
             </div>
             <div id="cardContainer">
                 <div id="card">
-                    <img src={Schedule} alt="Inside Notes" />
+                    <img src={Schedule} alt="Inside Notes" className="cardPicture" />
                     <h1> Inside Notes </h1>
                     <div id="websiteContainer">
                         <a href="https://github.com/Mykaelas/Inside-Notes" target="_blank" rel="noreferrer">
@@ -71,7 +71,7 @@ function Portfolio() {
             </div>
             <div id="cardContainer">
                 <div id="card">
-                    <img src={Cards} alt="Have You Met Linda" />
+                    <img src={Cards} alt="Have You Met Linda" className="cardPicture"/>
                     <h1> Have You Met Linda</h1>
                     <div id="websiteContainer">
                         <a href="https://github.com/Mykaelas/Have-You-Met-Linda" target="_blank" rel="noreferrer">
@@ -85,7 +85,7 @@ function Portfolio() {
             </div>
             <div id="cardContainer">
                 <div id="card">
-                    <img src={Fitsical} alt="Let's Get Fitsical" />
+                    <img src={Fitsical} alt="Let's Get Fitsical" className="cardPicture"/>
                     <h1> Let's Get Fitsical</h1>
                     <div id="websiteContainer">
                         <a href="https://github.com/Mykaelas/lets-get-fitsical" target="_blank" rel="noreferrer">

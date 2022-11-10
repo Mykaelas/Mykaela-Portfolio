@@ -83,13 +83,76 @@ nav a {
   margin: 80px 250px;
   padding: 10px 0px 110px 10px;
 }
+.my-5 {
+  display: inline-flex;
+  /* flex-wrap: wrap; */
+}
+.mykaelaPicture {
+  max-height: 350px;
+  max-width: 350px;
+  margin: 90px 90px 0px 250px;
+}
+
+.my-2 {
+  font-size: 20px;
+  margin: 180px 0px 140px 0px;
+}
+ 
+#parentContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 10px 0px 10px 300px;
+}
+
+#cardContainer {
+  display: inline-flex;
+  flex-direction: column;
+  margin: 20px 100px  20px 10px;
+
+}
+
+.cardPicture {
+  height: 250px;
+  width: 300px;
+  margin: 20px 20px 20px 20px;
+}
+#card {
+  box-shadow: 2px 5px 5px #322a2d;
+  background: var(--dark);
+  color: var(--light);
+  text-align: center;
+}
+
+#card a {
+  color: var(--light);
+  text-decoration: none;
+  margin: 0px 10px 0px 10px;
+}
+
+#back {
+  font-size: 25px;
+}
+
+#contactBox {
+  background-color: var(--dark);
+  color: var(--light);
+  margin: 30px 250px 20px 200px;
+  font-size: 50px;
+  text-align: center;
+}
+
+#submitBtn {
+  margin: 0px 400px 0px 400px;
+  font-size: 25px;
+}
 
 footer {
   position:relative;
   display: flex;
   flex-direction:row;
-  height: 80px;
 }
 .footerA {
-  padding: 6px 650px;
+  padding: 0px 0px 0px 700px;
 }
+

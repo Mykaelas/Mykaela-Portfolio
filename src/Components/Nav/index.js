@@ -1,4 +1,5 @@
 import React from 'react';
+import Resume from '../Resume'
 
 
 function Nav(props) {
@@ -28,8 +29,8 @@ function Nav(props) {
             </a>
           </li>
           <li className="mx-2">
-            <a data-testid="resume" href="#resume" onClick={() => setTabSelected('resume')}>
-              Resume
+            <a data-testid="contact" href="#contact" onClick={() => setTabSelected('contact')}>
+              Contact
             </a>
           </li>
         </ul>
