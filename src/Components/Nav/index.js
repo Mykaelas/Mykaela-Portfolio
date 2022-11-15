@@ -1,5 +1,5 @@
 import React from 'react';
-import Resume from '../Resume'
+import Resume from '../../Assets/Resume/Mykaela Saenz Resume.pdf'
 
 
 function Nav(props) {
@@ -10,7 +10,7 @@ function Nav(props) {
 
   // add on click for contact, resume, and portfolio
   return (
-    // <header className="flex-row px-1">
+    <header className="flex-row px-1">
       <nav>
         <ul className="flex-row">
           <li className="mx-2">
@@ -29,13 +29,15 @@ function Nav(props) {
             </a>
           </li>
           <li className="mx-2">
-            <a data-testid="contact" href="#contact" onClick={() => setTabSelected('contact')}>
-              Contact
-            </a>
+            <button id="resumeBtn"> 
+              <a href={Resume} target="_blank" rel="noreferrer">
+                Resume
+              </a>
+            </button>
           </li>
         </ul>
       </nav>
-    // </header>
+    </header>
   );
 }
 
