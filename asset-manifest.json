@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c8f7bb5d.css",
+    "main.js": "/static/js/main.c151f303.js",
+    "static/js/787.8759f65e.chunk.js": "/static/js/787.8759f65e.chunk.js",
+    "static/media/Fitsical.png": "/static/media/Fitsical.c49fca224d07ab34cc24.png",
+    "static/media/compere.jpg": "/static/media/compere.89c4dd5e01009eb172c2.jpg",
+    "static/media/Movie.jpg": "/static/media/Movie.748c747336257d2c65f9.jpg",
+    "static/media/IMG_2392.JPG": "/static/media/IMG_2392.1cf4fa018d74ff0acaae.JPG",
+    "static/media/Cards.png": "/static/media/Cards.51dcb3d282bf1dea41a3.png",
+    "static/media/do.png": "/static/media/do.ed3dbbb9cd313445616e.png",
+    "static/media/Mykaela Saenz Resume.pdf": "/static/media/Mykaela Saenz Resume.c19219f3da81c3f9e668.pdf",
+    "static/media/Bukhari Script.woff": "/static/media/Bukhari Script.79f83246a43cccf7118f.woff",
+    "static/media/Bukhari Script.woff2": "/static/media/Bukhari Script.5515aad95ebbc73d11c1.woff2",
+    "static/media/Schedule.png": "/static/media/Schedule.4a18cb47931dea680eb0.png",
+    "static/media/AbrilFatface-Regular.woff": "/static/media/AbrilFatface-Regular.1da301abf6230036016b.woff",
+    "static/media/AbrilFatface-Regular.woff2": "/static/media/AbrilFatface-Regular.be9985e37e8406381a3a.woff2",
+    "index.html": "/index.html",
+    "main.c8f7bb5d.css.map": "/static/css/main.c8f7bb5d.css.map",
+    "main.c151f303.js.map": "/static/js/main.c151f303.js.map",
+    "787.8759f65e.chunk.js.map": "/static/js/787.8759f65e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c8f7bb5d.css",
+    "static/js/main.c151f303.js"
+  ]
+}
