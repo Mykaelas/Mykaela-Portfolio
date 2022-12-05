@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Mykaela-Portfolio/static/css/main.e2ae484f.css",
-    "main.js": "/Mykaela-Portfolio/static/js/main.3222e8aa.js",
+    "main.js": "/Mykaela-Portfolio/static/js/main.0c824c23.js",
     "static/js/787.8759f65e.chunk.js": "/Mykaela-Portfolio/static/js/787.8759f65e.chunk.js",
     "static/media/Fitsical.png": "/Mykaela-Portfolio/static/media/Fitsical.c49fca224d07ab34cc24.png",
     "static/media/compere.jpg": "/Mykaela-Portfolio/static/media/compere.89c4dd5e01009eb172c2.jpg",
@@ -17,11 +17,11 @@
     "static/media/AbrilFatface-Regular.woff2": "/Mykaela-Portfolio/static/media/AbrilFatface-Regular.be9985e37e8406381a3a.woff2",
     "index.html": "/Mykaela-Portfolio/index.html",
     "main.e2ae484f.css.map": "/Mykaela-Portfolio/static/css/main.e2ae484f.css.map",
-    "main.3222e8aa.js.map": "/Mykaela-Portfolio/static/js/main.3222e8aa.js.map",
+    "main.0c824c23.js.map": "/Mykaela-Portfolio/static/js/main.0c824c23.js.map",
     "787.8759f65e.chunk.js.map": "/Mykaela-Portfolio/static/js/787.8759f65e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e2ae484f.css",
-    "static/js/main.3222e8aa.js"
+    "static/js/main.0c824c23.js"
   ]
 }
