@@ -1,6 +1,5 @@
 import React, {useState} from 'react';
 import Header from './Components/Header';
-import Contact from './Components/Contact';
 import About from './Components/About';
 import Footer from './Components/Footer/index.js';
 import Portfolio from './Components/Portfolio';
@@ -20,7 +19,6 @@ function App() {
           {
             about: <About />,
             projects: <Portfolio />,
-            contact: <Contact />,
             resume: <Resume />,
             default: <Main />
           }[tabSelected]

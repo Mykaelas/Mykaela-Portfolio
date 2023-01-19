@@ -1,5 +1,5 @@
 import React from 'react';
-import Resume from '../../Assets/Resume/Mykaela Saenz Resume.pdf'
+import Resume from '../../Assets/Resume/Mykaela Saenz Resume.pdf';
 
 
 function Nav(props) {
@@ -21,11 +21,6 @@ function Nav(props) {
           <li className="mx-2">
             <a data-testid="projects" href="#projects" onClick={() => setTabSelected('projects')}>
               Projects
-            </a>
-          </li>
-          <li className="mx-2">
-            <a data-testid="contact" href="#contact" onClick={() => setTabSelected('contact')}>
-              Contact
             </a>
           </li>
           <li className="mx-2">

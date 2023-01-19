@@ -1,10 +1,8 @@
 import React from 'react';
 import Movie from '../../Assets/Git Project Pictures/Movie.jpg';
-import Compere from '../../Assets/Git Project Pictures/compere.jpg';
 import Do from '../../Assets/Git Project Pictures/do.png';
-import Schedule from '../../Assets/Git Project Pictures/Schedule.png';
 import Cards from '../../Assets/Git Project Pictures/Cards.png';
-import Fitsical from '../../Assets/Git Project Pictures/Fitsical.png';
+import Thought from '../../Assets/Git Project Pictures/Thought.png';
 
 //import one at a time
 
@@ -29,20 +27,6 @@ function Portfolio() {
             </div>
             <div id="cardContainer">
                 <div id="card">
-                    <img src={Compere} alt="Compere"  className="cardPicture"/>
-                    <h1> Compére </h1>
-                    <div id="websiteContainer">
-                        <a href="https://github.com/AHudg/compere" target="_blank" rel="noreferrer">
-                            GitHub
-                        </a>
-                        <a href="https://vast-eyrie-87159.herokuapp.com/" target="_blank" rel="noreferrer">
-                            Website
-                        </a> 
-                    </div>
-                </div>
-            </div>
-            <div id="cardContainer">
-                <div id="card">
                     <img src={Do} alt="Do you have that in the back?" className="cardPicture"/>
                     <h1 id="back"> Do you have that <br /> in the back? </h1>
                     <div id="websiteContainer">
@@ -57,14 +41,14 @@ function Portfolio() {
             </div>
             <div id="cardContainer">
                 <div id="card">
-                    <img src={Schedule} alt="Inside Notes" className="cardPicture" />
-                    <h1> Inside Notes </h1>
+                    <img src={Thought} alt="Thought Alert" className="cardPicture"/>
+                    <h1 id="back"> Thought Alert </h1>
                     <div id="websiteContainer">
-                        <a href="https://github.com/Mykaelas/Inside-Notes" target="_blank" rel="noreferrer">
+                        <a href="https://github.com/Mykaelas/Thought-Alert" target="_blank" rel="noreferrer">
                             GitHub
                         </a>
-                        <a href="https://afternoon-garden-11659.herokuapp.com/notes" target="_blank" rel="noreferrer">
-                            Website
+                        <a href="https://www.youtube.com/watch?v=dq8wYDqdoMY&ab_channel=MykaelaSaenz" target="_blank" rel="noreferrer">
+                            Youtube
                         </a> 
                     </div>
                 </div>
@@ -80,17 +64,6 @@ function Portfolio() {
                         <a href="https://www.youtube.com/watch?v=ogiMFJVgBAA" target="_blank" rel="noreferrer">
                             Youtube
                         </a> 
-                    </div>
-                </div>
-            </div>
-            <div id="cardContainer">
-                <div id="card">
-                    <img src={Fitsical} alt="Let's Get Fitsical" className="cardPicture"/>
-                    <h1> Let's Get Fitsical</h1>
-                    <div id="websiteContainer">
-                        <a href="https://github.com/Mykaelas/lets-get-fitsical" target="_blank" rel="noreferrer">
-                            GitHub
-                        </a>
                     </div>
                 </div>
             </div>
