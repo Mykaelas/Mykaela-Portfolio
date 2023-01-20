@@ -1,6 +1,7 @@
 
 # My Portfolio
-![Screenshot 2022-12-05 113854](https://user-images.githubusercontent.com/101831653/205705010-462e1023-99d1-4b36-8009-57dbefa59c22.png)
+![Screenshot update](https://user-images.githubusercontent.com/101831653/213802495-274171e1-69a0-4c8b-a78f-ca0023eba25f.png)
+
 
 ## License:
 
