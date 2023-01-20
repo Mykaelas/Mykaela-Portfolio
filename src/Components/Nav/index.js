@@ -1,4 +1,4 @@
-import React from 'react';
+// import React from 'react';
 import Resume from '../../Assets/Resume/Mykaela Saenz Resume.pdf';
 
 

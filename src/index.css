@@ -130,6 +130,58 @@ nav a {
   margin: 0px 10px 0px 10px;
 }
 
+.imageContainer {
+ position: relative;
+ text-align: center;
+ color: var(--light); 
+}
+
+.spoiler {
+  position: absolute;
+  transform: translate(1%, -180%);
+  font-size: 20px;
+  overflow: hidden;
+  opacity: 0;
+  padding: -1px;
+}
+
+.spoiler:hover{
+  opacity: 1;
+}
+
+.spoilerDoYouHave {
+  position: absolute;
+  transform: translate(2%, -136%);
+  font-size: 20px;
+  overflow: hidden;
+  opacity: 0;
+  padding: -1px;
+}
+
+.spoilerDoYouHave:hover {
+  opacity: 1;
+}
+
+.spoilerHaveYouMet {
+  position: absolute;
+  transform: translate(1%, -166%);
+  font-size: 20px;
+  overflow: hidden;
+  opacity: 0;
+  padding: -1px;
+  color:white;
+  background-color: black;
+}
+
+.spoilerHaveYouMet:hover{
+  opacity: 1;
+}
+
+.imageContainer:hover img {
+  filter: blur(10px);
+}
+
+
 #back {
   font-size: 25px;
 }
@@ -501,7 +553,7 @@ footer {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin: 5px 0px 5px 60px;
+    margin: 5px 0px 5px 265px;
   }
   
   #cardContainer {
