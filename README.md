@@ -11,6 +11,7 @@ No License as of this point in time
 
 - [Description](#description)
 - [Installation](#installation)
+- [Languages](#languages)
 - [Usage](#usage)
 - [License](#license)
 - [Contributions](#contributions)
@@ -25,6 +26,15 @@ As a developer I wanted to showcase my talents in a way that is easy for my empl
 ## Installation:
 
 To view this product please do a git pull and a npm i for react, or simply click on this link to see the deployed website https://mykaelas.github.io/Mykaela-Portfolio/ .
+
+## Languages:
+The languages used to create this app are:
+-JavaScript
+-ReactJs
+-HTML
+-CSS
+-GitHub
+
 ## Usage:
 
 This is to help employers see my works and accomplishments. 
