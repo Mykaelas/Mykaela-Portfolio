@@ -29,11 +29,11 @@ To view this product please do a git pull and a npm i for react, or simply click
 
 ## Languages:
 The languages used to create this app are:
--JavaScript
--ReactJs
--HTML
--CSS
--GitHub
+- JavaScript
+- ReactJs
+- HTML
+- CSS
+- GitHub
 
 ## Usage:
 
