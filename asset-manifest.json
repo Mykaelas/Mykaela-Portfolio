@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/Mykaela-Portfolio/static/css/main.cd0005a4.css",
-    "main.js": "/Mykaela-Portfolio/static/js/main.8f21f9d8.js",
+    "main.css": "/Mykaela-Portfolio/static/css/main.a3d275b7.css",
+    "main.js": "/Mykaela-Portfolio/static/js/main.d522007b.js",
     "static/js/787.8759f65e.chunk.js": "/Mykaela-Portfolio/static/js/787.8759f65e.chunk.js",
+    "static/media/IMG_2392.jpg": "/Mykaela-Portfolio/static/media/IMG_2392.9fa60630a4a0fe622878.jpg",
     "static/media/Thought.png": "/Mykaela-Portfolio/static/media/Thought.052dc5e876ffcfef15dd.png",
     "static/media/Movie.jpg": "/Mykaela-Portfolio/static/media/Movie.748c747336257d2c65f9.jpg",
-    "static/media/IMG_2392.JPG": "/Mykaela-Portfolio/static/media/IMG_2392.1cf4fa018d74ff0acaae.JPG",
     "static/media/Cards.png": "/Mykaela-Portfolio/static/media/Cards.51dcb3d282bf1dea41a3.png",
     "static/media/do.png": "/Mykaela-Portfolio/static/media/do.ed3dbbb9cd313445616e.png",
     "static/media/Mykaela Saenz Resume.pdf": "/Mykaela-Portfolio/static/media/Mykaela Saenz Resume.e34331daefb21950ce92.pdf",
@@ -14,12 +14,12 @@
     "static/media/AbrilFatface-Regular.woff": "/Mykaela-Portfolio/static/media/AbrilFatface-Regular.1da301abf6230036016b.woff",
     "static/media/AbrilFatface-Regular.woff2": "/Mykaela-Portfolio/static/media/AbrilFatface-Regular.be9985e37e8406381a3a.woff2",
     "index.html": "/Mykaela-Portfolio/index.html",
-    "main.cd0005a4.css.map": "/Mykaela-Portfolio/static/css/main.cd0005a4.css.map",
-    "main.8f21f9d8.js.map": "/Mykaela-Portfolio/static/js/main.8f21f9d8.js.map",
+    "main.a3d275b7.css.map": "/Mykaela-Portfolio/static/css/main.a3d275b7.css.map",
+    "main.d522007b.js.map": "/Mykaela-Portfolio/static/js/main.d522007b.js.map",
     "787.8759f65e.chunk.js.map": "/Mykaela-Portfolio/static/js/787.8759f65e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cd0005a4.css",
-    "static/js/main.8f21f9d8.js"
+    "static/css/main.a3d275b7.css",
+    "static/js/main.d522007b.js"
   ]
 }
