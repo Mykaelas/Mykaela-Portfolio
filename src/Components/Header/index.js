@@ -8,7 +8,7 @@ function Header(props) {
         <div>
             <header id="header1">
                 <a href="https://mykaelas.github.io/Mykaela-Portfolio/" id="userName">
-                    <h1>
+                    <h1 class = "nameHeader ">
                         Mykaela Saenz
                     </h1>
                 </a>
