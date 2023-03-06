@@ -3,7 +3,7 @@ import Profile from '../../Assets/Profile Picture/IMG_2392.jpg';
 
 function About() {
   return (
-      <div className="my-5">
+      <div className="aboutContainerSection">
         <img src={Profile} alt="Mykaela" className="mykaelaPicture" />
         <p className="my-2">
           Hello, my name is Mykaela Saenz, I am a JavaScript Developer with a Full Stack certificate from Rice University.
