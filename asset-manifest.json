@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Mykaela-Portfolio/static/css/main.a3d275b7.css",
-    "main.js": "/Mykaela-Portfolio/static/js/main.d522007b.js",
+    "main.css": "/Mykaela-Portfolio/static/css/main.dad1158f.css",
+    "main.js": "/Mykaela-Portfolio/static/js/main.e51947d0.js",
     "static/js/787.8759f65e.chunk.js": "/Mykaela-Portfolio/static/js/787.8759f65e.chunk.js",
     "static/media/IMG_2392.jpg": "/Mykaela-Portfolio/static/media/IMG_2392.9fa60630a4a0fe622878.jpg",
     "static/media/Thought.png": "/Mykaela-Portfolio/static/media/Thought.052dc5e876ffcfef15dd.png",
@@ -14,12 +14,12 @@
     "static/media/AbrilFatface-Regular.woff": "/Mykaela-Portfolio/static/media/AbrilFatface-Regular.1da301abf6230036016b.woff",
     "static/media/AbrilFatface-Regular.woff2": "/Mykaela-Portfolio/static/media/AbrilFatface-Regular.be9985e37e8406381a3a.woff2",
     "index.html": "/Mykaela-Portfolio/index.html",
-    "main.a3d275b7.css.map": "/Mykaela-Portfolio/static/css/main.a3d275b7.css.map",
-    "main.d522007b.js.map": "/Mykaela-Portfolio/static/js/main.d522007b.js.map",
+    "main.dad1158f.css.map": "/Mykaela-Portfolio/static/css/main.dad1158f.css.map",
+    "main.e51947d0.js.map": "/Mykaela-Portfolio/static/js/main.e51947d0.js.map",
     "787.8759f65e.chunk.js.map": "/Mykaela-Portfolio/static/js/787.8759f65e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a3d275b7.css",
-    "static/js/main.d522007b.js"
+    "static/css/main.dad1158f.css",
+    "static/js/main.e51947d0.js"
   ]
 }
